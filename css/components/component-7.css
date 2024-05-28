@@ -1,0 +1,35 @@
+.c7 ul {
+    background-image: url(../../images/c7-img.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    gap: 9.5rem;
+    padding: 5rem 0 5.4rem 16.4rem;
+    border-radius: 3.5rem;
+    height: 69.5rem;
+    margin-top: 3rem;
+}
+
+
+.c7-person {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 4rem;
+    line-height: 87%;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.c7-person span {
+    color: #ff5f05;
+}
+
+.c7-person-text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 143%;
+    color: #fff;
+    margin-top: 2rem;
+}

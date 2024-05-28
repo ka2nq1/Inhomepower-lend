@@ -1,0 +1,37 @@
+.c3 {
+    background-image: url(../../images/c3-img.webp);
+    background-size: contain;
+    background-position-y: 19.3rem;
+    background-repeat: no-repeat;
+}
+
+.c3 .author-name {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 6.5rem;
+    line-height: 108%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #ff5f05;
+    margin-top: 40.3rem;
+}
+
+.c3-first-text {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 143%;
+    text-align: center;
+    color: #fff;
+    margin-top: 0.9rem;
+}
+
+.c3-second-text {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 143%;
+    text-align: center;
+    color: #fff;
+    margin-top: 1.9rem;
+}

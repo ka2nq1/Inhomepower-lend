@@ -1,0 +1,25 @@
+.c6 ul {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.c6 li {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.c6 li img {
+    width: 7rem;
+    height: 7rem;
+}
+
+.c6 li p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 143%;
+    color: #fff;
+}

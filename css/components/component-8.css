@@ -1,0 +1,52 @@
+.c8 {
+    background-image: url(../../images/c8-bg.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-bottom: 8rem;
+}
+
+.c8 ul {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.c8 > img {
+    width: 100%;
+    margin-top: 1.5rem;
+    margin-bottom: 4rem;
+}
+
+.c8 li {
+    display: flex;
+    gap: 2.3rem;
+}
+
+.c8-number {
+    position: relative;
+}
+
+.c8-number span {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 7.5rem;
+    line-height: 93%;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.c8-number img {
+    position: absolute;
+    bottom: 2.5rem;
+    right: -12px;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.c8 li>p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 143%;
+    color: #fff;
+}

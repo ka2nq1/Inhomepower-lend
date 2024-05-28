@@ -1,0 +1,74 @@
+.FAQ .title {
+    margin-bottom: 3.5rem;
+}
+
+.FAQ .accordion-container {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.FAQ .accordion-item {
+    transition: max-height 0.4s ease-out;
+    padding: 4rem 0 4rem 4.6rem;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: none;
+    background: radial-gradient(45.45% 129.03% at 53.12% 21%, rgb(255, 255, 255) -600%, rgba(28, 28, 28, 0.543) 90%);
+}
+
+.FAQ .accordion-item:last-child {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.FAQ .accordion-header:before {
+    content: '';
+    display: inline-block;
+    right: 4.9rem;
+    top: 0.5rem;
+    width: 1.6rem;
+    height: 0.9rem;
+    position: absolute;
+    background-image: url(../../images/ac-arrow.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    transform: rotate(180deg);
+}
+
+.FAQ .accordion-header p {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 125%;
+    color: #fff;
+}
+
+.FAQ .accordion-header {
+    position: relative;
+    display: flex;
+    gap: 1.77rem;
+}
+
+.FAQ .active .accordion-header:before {
+    transform: rotate(0deg);
+}
+
+.FAQ .active .accordion-content {
+    max-height: 50rem;
+}
+
+.FAQ .accordion-content {
+    overflow: hidden;
+    padding: 0;
+    max-height: 0;
+}
+
+.FAQ .accordion-content p {
+    padding-top: 3rem;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 150%;
+    color: #fff;
+    padding-left: 2rem;
+}
